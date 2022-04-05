@@ -18,7 +18,7 @@ public class Main {
         }
         //If syntax is correct run test() method on a new thread for every int threads
         else{
-            int threads = Integer.parseInt(args[0]);
+            final int threads = Integer.parseInt(args[0]);
 
             for(int i = 0; i < threads; i++){
                 new Thread(main.test()).start();
