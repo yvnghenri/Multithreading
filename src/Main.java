@@ -1,5 +1,3 @@
-package me.henri.multithreading;
-
 public class Main {
 
     //Method to shorten System.out.println(); method
